@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,25-05-2024 23:20:48,25-05-2024 23:22:19,1m - 30.867s,FAILED
+,,,,,,,
+Test Cases/New Test Case,,,,25-05-2024 23:21:36,25-05-2024 23:22:19,42.215s,FAILED
+"startApplicationWithTitle(""C:\Windows\notepad.exe"", ""credentials - Notepad"")",,,,25-05-2024 23:21:36,25-05-2024 23:21:46,9.184s,PASSED
+"click(findWindowsObject(""Object Repository/Button""))",,,,25-05-2024 23:21:46,25-05-2024 23:21:56,10.673s,PASSED
+"click(findWindowsObject(""Object Repository/Document""))",,,,25-05-2024 23:21:56,25-05-2024 23:22:04,7.556s,PASSED
+"setText(findWindowsObject(""Object Repository/Document""), ""asc"")",,,,25-05-2024 23:22:04,25-05-2024 23:22:18,13.965s,FAILED
