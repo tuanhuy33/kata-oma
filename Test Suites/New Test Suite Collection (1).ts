@@ -4,7 +4,7 @@
    <name>New Test Suite Collection (1)</name>
    <tag></tag>
    <delayBetweenInstances>0</delayBetweenInstances>
-   <executionMode>PARALLEL</executionMode>
+   <executionMode>SEQUENTIAL</executionMode>
    <maxConcurrentInstances>2</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
