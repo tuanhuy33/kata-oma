@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="api dah" time="76.585" tests="5" failures="0" errors="0">
+   <testsuite name="api" tests="3" failures="0" errors="0" time="7.221" skipped="0" timestamp="28-05-2024T21:00:17" hostname="tuanh - huybt2" id="Test Suites/api">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\tuanh\\git\\kata-oma\\Reports\\20240528_205958\\api\\20240528_205959"/>
+         <property name="logFiles" value="C:\\Users\\tuanh\\git\\kata-oma\\Reports\\20240528_205958\\api\\20240528_205959\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="tuanh - huybt2"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+      </properties>
+      <testcase name="Test Cases/ad" time="6.158" classname="Test Cases/ad" status="PASSED">
+         <system-out><![CDATA[28-05-2024T21:00:18 - [TEST_CASE][PASSED] - Test Cases/ad: Test Cases/ad
+
+28-05-2024T21:00:18 - [TEST_STEP][PASSED] - sendRequest(findTestObject("ac/New Request")): Send request successfully
+
+28-05-2024T21:00:24 - [MESSAGE][INFO] - HAR: C:\Users\tuanh\git\kata-oma\Reports\20240528_205958\api\20240528_205959\requests\main\0.har
+
+28-05-2024T21:00:24 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/api" time="0.385" classname="Test Cases/api" status="PASSED">
+         <system-out><![CDATA[28-05-2024T21:00:24 - [TEST_CASE][PASSED] - Test Cases/api: Test Cases/api
+
+28-05-2024T21:00:24 - [TEST_STEP][PASSED] - sendRequest(findTestObject("ac/New Request")): Send request successfully
+
+28-05-2024T21:00:24 - [MESSAGE][INFO] - HAR: C:\Users\tuanh\git\kata-oma\Reports\20240528_205958\api\20240528_205959\requests\main\1.har
+
+28-05-2024T21:00:24 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (2)" time="0.309" classname="Test Cases/New Test Case (2)" status="PASSED">
+         <system-out><![CDATA[28-05-2024T21:00:24 - [TEST_CASE][PASSED] - Test Cases/New Test Case (2): Test Cases/New Test Case (2)
+
+28-05-2024T21:00:24 - [TEST_STEP][PASSED] - sendRequest(findTestObject("ac/New Request")): Send request successfully
+
+28-05-2024T21:00:25 - [MESSAGE][INFO] - HAR: C:\Users\tuanh\git\kata-oma\Reports\20240528_205958\api\20240528_205959\requests\main\2.har
+
+28-05-2024T21:00:25 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-05-2024T21:00:17 - [TEST_SUITE][PASSED] - api: Test Cases/New Test Case (2)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="deskstop" tests="1" failures="0" errors="0" time="9.069" skipped="0" timestamp="28-05-2024T21:00:47" hostname="tuanh - huybt2" id="Test Suites/deskstop">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\tuanh\\git\\kata-oma\\Reports\\20240528_205958\\deskstop\\20240528_210001"/>
+         <property name="logFiles" value="C:\\Users\\tuanh\\git\\kata-oma\\Reports\\20240528_205958\\deskstop\\20240528_210001\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="tuanh - huybt2"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="desiredCapabilities" value="{}"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+      </properties>
+      <testcase name="Test Cases/destops" time="8.543" classname="Test Cases/destops" status="PASSED">
+         <system-out><![CDATA[28-05-2024T21:00:47 - [TEST_CASE][PASSED] - Test Cases/destops: Test Cases/destops
+
+28-05-2024T21:00:48 - [TEST_STEP][PASSED] - startApplicationWithTitle("C:\Windows\notepad.exe", "credentials - Notepad"): The application at location: C:\Windows\notepad.exe started.
+
+28-05-2024T21:00:48 - [MESSAGE][INFO] - Starting application C:\Windows\notepad.exe on the local machine at address http://127.0.0.1:4723
+
+28-05-2024T21:00:51 - [MESSAGE][PASSED] - The application at location: C:\Windows\notepad.exe started.
+
+28-05-2024T21:00:51 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Button")): Click on element: Object Repository/Button succesfully
+
+28-05-2024T21:00:51 - [MESSAGE][INFO] - Clicking on element: Object Repository/Button
+
+28-05-2024T21:00:52 - [MESSAGE][PASSED] - Click on element: Object Repository/Button succesfully
+
+28-05-2024T21:00:52 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Document")): Click on element: Object Repository/Document succesfully
+
+28-05-2024T21:00:52 - [MESSAGE][INFO] - Clicking on element: Object Repository/Document
+
+28-05-2024T21:00:53 - [MESSAGE][PASSED] - Click on element: Object Repository/Document succesfully
+
+28-05-2024T21:00:53 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Document"), "asc"): Text asc is set
+
+28-05-2024T21:00:55 - [MESSAGE][PASSED] - Text asc is set
+
+28-05-2024T21:00:55 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Window")): Click on element: Object Repository/Window succesfully
+
+28-05-2024T21:00:55 - [MESSAGE][INFO] - Clicking on element: Object Repository/Window
+
+28-05-2024T21:00:56 - [MESSAGE][PASSED] - Click on element: Object Repository/Window succesfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-05-2024T21:00:47 - [TEST_SUITE][PASSED] - deskstop: Test Cases/destops]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="New Test Suite (2)" tests="1" failures="0" errors="0" time="7.512" skipped="0" timestamp="28-05-2024T21:01:11" hostname="tuanh - huybt2" id="Test Suites/New Test Suite (2)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\tuanh\\git\\kata-oma\\Reports\\20240528_205958\\New Test Suite (2)\\20240528_210003"/>
+         <property name="logFiles" value="C:\\Users\\tuanh\\git\\kata-oma\\Reports\\20240528_205958\\New Test Suite (2)\\20240528_210003\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="tuanh - huybt2"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="d0ac8f258b04ea535aa495982e559b12"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/tets1" time="7.219" classname="Test Cases/tets1" status="PASSED">
+         <system-out><![CDATA[28-05-2024T21:01:11 - [TEST_CASE][PASSED] - Test Cases/tets1: Test Cases/tets1
+
+28-05-2024T21:01:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T21:01:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T21:01:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T21:01:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T21:01:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-05-2024T21:01:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-05-2024T21:01:11 - [TEST_SUITE][PASSED] - New Test Suite (2): Test Cases/tets1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="aaaaa" time="476.707" tests="1" failures="0" errors="0">
+   <testsuite name="aaaaa" tests="1" failures="0" errors="0" time="476.707" skipped="0" timestamp="29-05-2024T22:30:37" hostname="tuanh - huybt2" id="Test Suites/aaaaa">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\tuanh\\git\\kata-oma\\Reports\\20240529_222630\\aaaaa\\20240529_222631"/>
+         <property name="logFiles" value="C:\\Users\\tuanh\\git\\kata-oma\\Reports\\20240529_222630\\aaaaa\\20240529_222631\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="tuanh - huybt2"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value=""/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="sessionId" value="d07fb7a7a9975d8617cd33e92797dc3f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/tets1" time="466.839" classname="Test Cases/tets1" status="PASSED">
+         <system-out><![CDATA[29-05-2024T22:30:47 - [TEST_CASE][PASSED] - Test Cases/tets1: Test Cases/tets1
+
+29-05-2024T22:30:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-05-2024T22:31:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T22:31:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T22:37:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-05-2024T22:37:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T22:38:34 - [MESSAGE][WARNING] - Browser is not reachable. Browser may have been closed already.
+
+29-05-2024T22:38:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-05-2024T22:30:37 - [TEST_SUITE][PASSED] - aaaaa: Test Cases/tets1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

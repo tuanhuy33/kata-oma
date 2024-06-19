@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="23.935" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="23.935" skipped="0" timestamp="28-05-2024T21:13:06" hostname="tuanh - huybt2" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\tuanh\\git\\kata-oma\\Reports\\20240528_211251\\New Test Suite\\20240528_211252"/>
+         <property name="logFiles" value="C:\\Users\\tuanh\\git\\kata-oma\\Reports\\20240528_211251\\New Test Suite\\20240528_211252\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="tuanh - huybt2"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="desiredCapabilities" value="{}"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case" time="22.797" classname="Test Cases/New Test Case" status="PASSED">
+         <system-out><![CDATA[28-05-2024T21:13:07 - [TEST_CASE][PASSED] - Test Cases/New Test Case: Test Cases/New Test Case
+
+28-05-2024T21:13:08 - [TEST_STEP][PASSED] - startApplicationWithTitle("C:\Windows\notepad.exe", "credentials - Notepad"): The application at location: C:\Windows\notepad.exe started.
+
+28-05-2024T21:13:09 - [MESSAGE][INFO] - Starting application C:\Windows\notepad.exe on the local machine at address http://127.0.0.1:4723
+
+28-05-2024T21:13:14 - [MESSAGE][PASSED] - The application at location: C:\Windows\notepad.exe started.
+
+28-05-2024T21:13:14 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Button")): Click on element: Object Repository/Button succesfully
+
+28-05-2024T21:13:15 - [MESSAGE][INFO] - Clicking on element: Object Repository/Button
+
+28-05-2024T21:13:15 - [MESSAGE][PASSED] - Click on element: Object Repository/Button succesfully
+
+28-05-2024T21:13:15 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Document")): Click on element: Object Repository/Document succesfully
+
+28-05-2024T21:13:18 - [MESSAGE][INFO] - Clicking on element: Object Repository/Document
+
+28-05-2024T21:13:18 - [MESSAGE][PASSED] - Click on element: Object Repository/Document succesfully
+
+28-05-2024T21:13:18 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Document"), "asc"): Text asc is set
+
+28-05-2024T21:13:27 - [MESSAGE][PASSED] - Text asc is set
+
+28-05-2024T21:13:27 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Window")): Click on element: Object Repository/Window succesfully
+
+28-05-2024T21:13:30 - [MESSAGE][INFO] - Clicking on element: Object Repository/Window
+
+28-05-2024T21:13:30 - [MESSAGE][PASSED] - Click on element: Object Repository/Window succesfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-05-2024T21:13:06 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/New Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
