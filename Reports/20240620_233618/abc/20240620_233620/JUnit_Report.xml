@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="abc" time="82.87" tests="1" failures="0" errors="0">
+   <testsuite name="abc" tests="1" failures="0" errors="0" time="82.87" skipped="0" timestamp="20-06-2024T23:37:16" hostname="tuanh - huybt2" id="Test Suites/abc">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\tuanh\\git\\kata-oma\\Reports\\20240620_233618\\abc\\20240620_233620"/>
+         <property name="logFiles" value="C:\\Users\\tuanh\\git\\kata-oma\\Reports\\20240620_233618\\abc\\20240620_233620\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="tuanh - huybt2"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.20"/>
+         <property name="sessionId" value="bce2c22f66a6de20887ac3ceec41a1a3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/tets1" time="15.19" classname="Test Cases/tets1" status="PASSED">
+         <system-out><![CDATA[20-06-2024T23:38:24 - [TEST_CASE][PASSED] - Test Cases/tets1: Test Cases/tets1
+
+20-06-2024T23:38:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-06-2024T23:38:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-06-2024T23:38:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-06-2024T23:38:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-06-2024T23:38:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-06-2024T23:38:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-06-2024T23:37:16 - [TEST_SUITE][FAILED] - abc: Test Cases/tets1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close browser
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:85)
+	at tets1.run(tets1:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1718901380386.run(TempTestSuite1718901380386.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:7875
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HUYBT2', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.quit(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:211)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:1601)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.doCall(CloseBrowserKeyword.groovy:73)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.call(CloseBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:85)
+	at Script1715351245763.run(Script1715351245763.groovy:23)
+	... 15 more
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:7875
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	... 34 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.quit(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:211)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:1601)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.doCall(CloseBrowserKeyword.groovy:73)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.call(CloseBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:85)
+	at tets1.run(tets1:23)
+	... 15 more]]></system-out>
+      <system-err><![CDATA[20-06-2024T23:37:16 - [TEST_SUITE][FAILED] - abc: Test Cases/tets1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close browser
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:85)
+	at tets1.run(tets1:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1718901380386.run(TempTestSuite1718901380386.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:7875
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HUYBT2', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.quit(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:211)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:1601)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.doCall(CloseBrowserKeyword.groovy:73)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.call(CloseBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:85)
+	at Script1715351245763.run(Script1715351245763.groovy:23)
+	... 15 more
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:7875
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	... 34 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.quit(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:211)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:1601)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.doCall(CloseBrowserKeyword.groovy:73)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.call(CloseBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:85)
+	at tets1.run(tets1:23)
+	... 15 more]]></system-err>
+   </testsuite>
+</testsuites>
