@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="api" time="15.579" tests="3" failures="0" errors="0">
+   <testsuite name="api" tests="3" failures="0" errors="0" time="15.579" skipped="0" timestamp="27-06-2024T19:54:53" hostname="tuanh - host.docker.internal" id="Test Suites/api">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\tuanh\\git\\kata-oma\\Reports\\20240627_195441\\api\\20240627_195441"/>
+         <property name="logFiles" value="C:\\Users\\tuanh\\git\\kata-oma\\Reports\\20240627_195441\\api\\20240627_195441\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="tuanh - host.docker.internal"/>
+         <property name="hostAddress" value="192.168.1.11"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+      </properties>
+      <testcase name="Test Cases/ad" time="8.562" classname="Test Cases/ad" status="PASSED">
+         <system-out><![CDATA[27-06-2024T19:54:54 - [TEST_CASE][PASSED] - Test Cases/ad: Test Cases/ad
+
+27-06-2024T19:54:54 - [TEST_STEP][PASSED] - sendRequest(findTestObject("ac/New Request")): Send request successfully
+
+27-06-2024T19:55:02 - [MESSAGE][INFO] - HAR: C:\Users\tuanh\git\kata-oma\Reports\20240627_195441\api\20240627_195441\requests\main\0.har
+
+27-06-2024T19:55:02 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/api" time="5.448" classname="Test Cases/api" status="PASSED">
+         <system-out><![CDATA[27-06-2024T19:55:02 - [TEST_CASE][PASSED] - Test Cases/api: Test Cases/api
+
+27-06-2024T19:55:02 - [TEST_STEP][PASSED] - sendRequest(findTestObject("ac/New Request")): Send request successfully
+
+27-06-2024T19:55:08 - [MESSAGE][INFO] - HAR: C:\Users\tuanh\git\kata-oma\Reports\20240627_195441\api\20240627_195441\requests\main\1.har
+
+27-06-2024T19:55:08 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (2)" time="1.101" classname="Test Cases/New Test Case (2)" status="PASSED">
+         <system-out><![CDATA[27-06-2024T19:55:08 - [TEST_CASE][PASSED] - Test Cases/New Test Case (2): Test Cases/New Test Case (2)
+
+27-06-2024T19:55:08 - [TEST_STEP][PASSED] - sendRequest(findTestObject("ac/New Request")): Send request successfully
+
+27-06-2024T19:55:09 - [MESSAGE][INFO] - HAR: C:\Users\tuanh\git\kata-oma\Reports\20240627_195441\api\20240627_195441\requests\main\2.har
+
+27-06-2024T19:55:09 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-06-2024T19:54:53 - [TEST_SUITE][PASSED] - api: Test Cases/New Test Case (2)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
