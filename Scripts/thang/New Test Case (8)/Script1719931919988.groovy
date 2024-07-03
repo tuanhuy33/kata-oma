@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demowebshop.tricentis.com/fictionhttps://demowebshop.tricentis.com/fiction')
+WebUI.navigateToUrl('https://demowebshop.tricentis.com/fiction')
 
 WebUI.setText(findTestObject('ac/New Test Object (1)'), 'a')
 
