@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+a,Chrome 126.0.0.0,,,04-07-2024 22:46:39,04-07-2024 22:49:16,2m - 36.662s,FAILED
+,,,,,,,
+Test Cases/aa/aa1,Chrome 126.0.0.0,,,04-07-2024 22:48:37,04-07-2024 22:49:16,38.977s,FAILED
+"openBrowser("""")",Chrome 126.0.0.0,,,04-07-2024 22:48:37,04-07-2024 22:48:38,1.634s,PASSED
+println($a - $variable - $variable_0),Chrome 126.0.0.0,,,04-07-2024 22:48:38,04-07-2024 22:48:38,0.001s,PASSED
+"navigateToUrl(""https://demowebshop.tricentis.com/fiction"")",Chrome 126.0.0.0,,,04-07-2024 22:48:38,04-07-2024 22:48:44,5.782s,PASSED
+"click(findTestObject(""ac/New Test Object (1)""))",Chrome 126.0.0.0,,,04-07-2024 22:48:44,04-07-2024 22:49:16,31.360s,FAILED

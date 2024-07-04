@@ -19,9 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+println("$a - $variable - $variable_0")
+
 WebUI.navigateToUrl('https://demowebshop.tricentis.com/fiction')
 
-WebUI.setText(findTestObject('ac/New Test Object (1)'), 'a')
+WebUI.click(findTestObject('ac/New Test Object (1)'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('ac/New Test Object'))
+
+WebUI.click(findTestObject('ac/New Test Object (10)'))
+
+WebUI.acceptAlert()
 

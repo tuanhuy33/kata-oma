@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-07-04T06:19:26.615536900Z</date>
+  <millis>1720073966615</millis>
+  <nanos>536900</nanos>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/thang/New Dynamic Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">false</property>
+  <property name="retryCount">0</property>
+  <property name="name">New Dynamic Test Suite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/thang/New Dynamic Test Suite</property>
+</record>
+<record>
+  <date>2024-07-04T06:19:26.650195200Z</date>
+  <millis>1720073966650</millis>
+  <nanos>195200</nanos>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = tuanh - huybt2</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">tuanh - huybt2</property>
+</record>
+<record>
+  <date>2024-07-04T06:19:26.652197500Z</date>
+  <millis>1720073966652</millis>
+  <nanos>197500</nanos>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 11 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 11 64bit</property>
+</record>
+<record>
+  <date>2024-07-04T06:19:26.654193700Z</date>
+  <millis>1720073966654</millis>
+  <nanos>193700</nanos>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 172.20.10.2</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">172.20.10.2</property>
+</record>
+<record>
+  <date>2024-07-04T06:19:26.656193Z</date>
+  <millis>1720073966656</millis>
+  <nanos>193000</nanos>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 9.4.0.212</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">9.4.0.212</property>
+</record>
+<record>
+  <date>2024-07-04T06:19:26.998795900Z</date>
+  <millis>1720073966998</millis>
+  <nanos>795900</nanos>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/aa/abc1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/aa/abc1</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/aa/abc1</property>
+  <property name="source">C:\Users\tuanh\git\kata-oma\Test Cases\aa\abc1.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2024-07-04T06:19:27.592161Z</date>
+  <millis>1720073967592</millis>
+  <nanos>161000</nanos>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">39</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-07-04T06:19:28.333597800Z</date>
+  <millis>1720073968333</millis>
+  <nanos>597800</nanos>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;browserName&amp;apos;, &amp;apos;chrome&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-07-04T06:19:28.333597800Z</date>
+  <millis>1720073968333</millis>
+  <nanos>597800</nanos>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;platformName&amp;apos;, &amp;apos;Android&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-07-04T06:19:28.333597800Z</date>
+  <millis>1720073968333</millis>
+  <nanos>597800</nanos>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;browserVersion&amp;apos;, &amp;apos;latest&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-07-04T06:19:28.333597800Z</date>
+  <millis>1720073968333</millis>
+  <nanos>597800</nanos>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;deviceName&amp;apos;, &amp;apos;Google Pixel 6 Pro&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-07-04T06:19:28.333597800Z</date>
+  <millis>1720073968333</millis>
+  <nanos>597800</nanos>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;platformVersion&amp;apos;, &amp;apos;15&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-07-04T06:19:28.333597800Z</date>
+  <millis>1720073968333</millis>
+  <nanos>597800</nanos>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;deviceId&amp;apos;, &amp;apos;google_pixel_6_pro&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-07-04T06:19:28.333597800Z</date>
+  <millis>1720073968333</millis>
+  <nanos>597800</nanos>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;katalon:option&amp;apos;, &amp;apos;{organizationId=1569749, tunnelId=, deviceVersion=15, deviceId=google_pixel_6_pro, usingTunnel=false}&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-07-04T06:19:28.350237800Z</date>
+  <millis>1720073968350</millis>
+  <nanos>237800</nanos>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Connecting to remote web server &amp;apos;testcloud.katalon.com/hub&amp;apos; with type &amp;apos;Selenium&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-07-04T06:19:28.755987600Z</date>
+  <millis>1720073968755</millis>
+  <nanos>987600</nanos>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-07-04T06:19:31.807727600Z</date>
+  <millis>1720073971807</millis>
+  <nanos>727600</nanos>
+  <sequence>22</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to open browser with url: &amp;apos;&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at abc1.run(abc1:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720073954662.run(TempTestSuite1720073954662.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: Unable to parse remote response: Response: 402, Code: TCS10005, Message: Not enough parallel quota
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.&amp;lt;init&amp;gt;(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:564)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:343)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:269)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at Script1720073562834.run(Script1720073562834.groovy:39)
+	... 15 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: R. Last 1 characters read: R
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;HUYBT2&amp;apos;, ip: &amp;apos;172.20.10.2&amp;apos;, os.name: &amp;apos;Windows 11&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;17.0.7&amp;apos;
+Driver info: driver.version: CRemoteWebDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+	at org.openqa.selenium.json.Json.toType(Json.java:69)
+	at org.openqa.selenium.json.Json.toType(Json.java:55)
+	at org.openqa.selenium.json.Json.toType(Json.java:50)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+	... 33 more
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.json.JsonException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.json.JsonException: Unable to determine type from: R. Last 1 characters read: R
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;HUYBT2&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: CRemoteWebDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+	at org.openqa.selenium.json.Json.toType(Json.java:69)
+	at org.openqa.selenium.json.Json.toType(Json.java:55)
+	at org.openqa.selenium.json.Json.toType(Json.java:50)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.&lt;init&gt;(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:564)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:343)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:269)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at abc1.run(abc1:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720073954662.run(TempTestSuite1720073954662.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.message">Unable to determine type from: R. Last 1 characters read: R
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;HUYBT2&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: CRemoteWebDriver</property>
+</record>
+<record>
+  <date>2024-07-04T06:19:31.822333200Z</date>
+  <millis>1720073971822</millis>
+  <nanos>333200</nanos>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-07-04T06:19:31.838363400Z</date>
+  <millis>1720073971838</millis>
+  <nanos>363400</nanos>
+  <sequence>30</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/aa/abc1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at abc1.run(abc1:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720073954662.run(TempTestSuite1720073954662.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: Unable to parse remote response: Response: 402, Code: TCS10005, Message: Not enough parallel quota
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.&amp;lt;init&amp;gt;(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:564)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:343)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:269)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at Script1720073562834.run(Script1720073562834.groovy:39)
+	... 15 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: R. Last 1 characters read: R
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;HUYBT2&amp;apos;, ip: &amp;apos;172.20.10.2&amp;apos;, os.name: &amp;apos;Windows 11&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;17.0.7&amp;apos;
+Driver info: driver.version: CRemoteWebDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+	at org.openqa.selenium.json.Json.toType(Json.java:69)
+	at org.openqa.selenium.json.Json.toType(Json.java:55)
+	at org.openqa.selenium.json.Json.toType(Json.java:50)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.&amp;lt;init&amp;gt;(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:564)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:343)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:269)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at abc1.run(abc1:39)
+	... 15 more
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''</message>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>openBrowser</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>openBrowser</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>abc1</class>
+      <method>run</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>150</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>180</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1720073954662</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>77</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.json.JsonException: Unable to determine type from: R. Last 1 characters read: R
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;HUYBT2&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: CRemoteWebDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+	at org.openqa.selenium.json.Json.toType(Json.java:69)
+	at org.openqa.selenium.json.Json.toType(Json.java:55)
+	at org.openqa.selenium.json.Json.toType(Json.java:50)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.&lt;init&gt;(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:564)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:343)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:269)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at abc1.run(abc1:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720073954662.run(TempTestSuite1720073954662.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.json.JsonException</property>
+  <property name="failed.exception.message">Unable to determine type from: R. Last 1 characters read: R
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;HUYBT2&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: CRemoteWebDriver</property>
+</record>
+<record>
+  <date>2024-07-04T06:19:31.978396500Z</date>
+  <millis>1720073971978</millis>
+  <nanos>396500</nanos>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/aa/abc1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-07-04T06:19:31.978396500Z</date>
+  <millis>1720073971978</millis>
+  <nanos>396500</nanos>
+  <sequence>33</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-07-04T06:19:32.808574700Z</date>
+  <millis>1720073972808</millis>
+  <nanos>574700</nanos>
+  <sequence>77</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: C:\Users\tuanh\git\kata-oma\Reports\20240704_131914\thang\New Dynamic Test Suite\20240704_131914...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-07-04T06:19:33.613124400Z</date>
+  <millis>1720073973613</millis>
+  <nanos>124400</nanos>
+  <sequence>78</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-07-04T06:19:33.618817Z</date>
+  <millis>1720073973618</millis>
+  <nanos>817000</nanos>
+  <sequence>79</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: C:\Users\tuanh\git\kata-oma\Reports\20240704_131914\thang\New Dynamic Test Suite\20240704_131914...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-07-04T06:19:33.664044100Z</date>
+  <millis>1720073973664</millis>
+  <nanos>44100</nanos>
+  <sequence>80</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-07-04T06:19:33.671859800Z</date>
+  <millis>1720073973671</millis>
+  <nanos>859800</nanos>
+  <sequence>82</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-07-04T06:19:33.739401200Z</date>
+  <millis>1720073973739</millis>
+  <nanos>401200</nanos>
+  <sequence>83</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/thang/New Dynamic Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

@@ -6,15 +6,28 @@
    <elementGuidId>6389f128-63ef-4a7d-a33f-878db6c907b7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>/html/body/div[4]/div[1]/div[1]/div[3]/form/input[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;__next&quot;]/main/div[2]/section[1]/div[1]/div[2]/a[2]/div</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>/html/body/div[4]/div[1]/div[1]/div[3]/form/input</value>
+      <webElementGuid>e1788637-a0d1-4996-8a4f-3e11a853df24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>/html/body/div[4]/div[1]/div[1]/div[3]/form/input[1]</value>
+      <webElementGuid>ecc12d05-0a91-4c25-b349-361fbdae2b3d</webElementGuid>
+   </webElementXpaths>
 </WebElementEntity>

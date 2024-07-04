@@ -6,12 +6,11 @@
    <elementGuidId>6f4f9d96-4e05-48a8-9af3-38be2431f568</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@class=&quot;cart-label&quot;][6]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;small-searchterms&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,6 +22,20 @@
       <name>sda</name>
       <type>Main</type>
       <value>2131q</value>
-      <webElementGuid>a86d97d0-8d05-489a-bc4a-2feaec09af4c</webElementGuid>
+      <webElementGuid>b096541d-de70-435f-9dda-8a3214d40bfe</webElementGuid>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//*[@class=&quot;cart-label&quot;]</value>
+      <webElementGuid>3d2ff569-2a48-4e14-bccc-7e2c4dd894bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//*[@class=&quot;cart-label&quot;][1]</value>
+      <webElementGuid>ee825604-0bb0-491c-9977-d02d89374a51</webElementGuid>
+   </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="a" time="278.615" tests="6" failures="0" errors="0">
+   <testsuite name="a" tests="6" failures="0" errors="0" time="278.615" skipped="0" timestamp="04-07-2024T18:26:36" hostname="tuanh - huybt2" id="Test Suites/thang/a">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\tuanh\\git\\kata-oma\\Reports\\20240704_182510\\thang\\a\\20240704_182514"/>
+         <property name="logFiles" value="C:\\Users\\tuanh\\git\\kata-oma\\Reports\\20240704_182510\\thang\\a\\20240704_182514\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="tuanh - huybt2"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="sessionId" value="90a6b62673fa650a13303cda2d8716e1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/aa/aa1" time="51.578" classname="Test Cases/aa/aa1" status="PASSED">
+         <system-out><![CDATA[04-07-2024T18:26:38 - [TEST_CASE][PASSED] - Test Cases/aa/aa1: Test Cases/aa/aa1
+
+04-07-2024T18:26:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-07-2024T18:26:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-07-2024T18:26:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-07-2024T18:26:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-07-2024T18:26:50 - [TEST_STEP][PASSED] - navigateToUrl("https://demowebshop.tricentis.com/fiction"): Navigate to 'https://demowebshop.tricentis.com/fiction' successfully
+
+04-07-2024T18:26:57 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/fiction' successfully
+
+04-07-2024T18:26:57 - [TEST_STEP][PASSED] - setText(findTestObject("ac/New Test Object (1)"), "a"): Text 'a' is set on object 'Object Repository/ac/New Test Object (1)'
+
+04-07-2024T18:27:01 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/ac/New Test Object (1)'
+
+04-07-2024T18:27:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-07-2024T18:27:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/aa/aa1" time="85.775" classname="Test Cases/aa/aa1" status="PASSED">
+         <system-out><![CDATA[04-07-2024T18:27:30 - [TEST_CASE][PASSED] - Test Cases/aa/aa1: Test Cases/aa/aa1
+
+04-07-2024T18:27:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-07-2024T18:27:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-07-2024T18:27:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-07-2024T18:27:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-07-2024T18:27:39 - [TEST_STEP][PASSED] - navigateToUrl("https://demowebshop.tricentis.com/fiction"): Navigate to 'https://demowebshop.tricentis.com/fiction' successfully
+
+04-07-2024T18:27:49 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/fiction' successfully
+
+04-07-2024T18:27:49 - [TEST_STEP][PASSED] - setText(findTestObject("ac/New Test Object (1)"), "a"): Text 'a' is set on object 'Object Repository/ac/New Test Object (1)'
+
+04-07-2024T18:27:55 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/ac/New Test Object (1)'
+
+04-07-2024T18:27:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-07-2024T18:28:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/aa/aa1" time="37.431" classname="Test Cases/aa/aa1" status="PASSED">
+         <system-out><![CDATA[04-07-2024T18:28:56 - [TEST_CASE][PASSED] - Test Cases/aa/aa1: Test Cases/aa/aa1
+
+04-07-2024T18:28:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-07-2024T18:28:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-07-2024T18:28:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-07-2024T18:29:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-07-2024T18:29:01 - [TEST_STEP][PASSED] - navigateToUrl("https://demowebshop.tricentis.com/fiction"): Navigate to 'https://demowebshop.tricentis.com/fiction' successfully
+
+04-07-2024T18:29:08 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/fiction' successfully
+
+04-07-2024T18:29:08 - [TEST_STEP][PASSED] - setText(findTestObject("ac/New Test Object (1)"), "a"): Text 'a' is set on object 'Object Repository/ac/New Test Object (1)'
+
+04-07-2024T18:29:11 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/ac/New Test Object (1)'
+
+04-07-2024T18:29:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-07-2024T18:29:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/aa/aa1" time="48.893" classname="Test Cases/aa/aa1" status="PASSED">
+         <system-out><![CDATA[04-07-2024T18:29:33 - [TEST_CASE][PASSED] - Test Cases/aa/aa1: Test Cases/aa/aa1
+
+04-07-2024T18:29:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-07-2024T18:29:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-07-2024T18:29:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-07-2024T18:29:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-07-2024T18:29:38 - [TEST_STEP][PASSED] - navigateToUrl("https://demowebshop.tricentis.com/fiction"): Navigate to 'https://demowebshop.tricentis.com/fiction' successfully
+
+04-07-2024T18:29:42 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/fiction' successfully
+
+04-07-2024T18:29:42 - [TEST_STEP][PASSED] - setText(findTestObject("ac/New Test Object (1)"), "a"): Text 'a' is set on object 'Object Repository/ac/New Test Object (1)'
+
+04-07-2024T18:29:48 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/ac/New Test Object (1)'
+
+04-07-2024T18:29:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-07-2024T18:30:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/aa/aa1" time="28.14" classname="Test Cases/aa/aa1" status="PASSED">
+         <system-out><![CDATA[04-07-2024T18:30:22 - [TEST_CASE][PASSED] - Test Cases/aa/aa1: Test Cases/aa/aa1
+
+04-07-2024T18:30:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-07-2024T18:30:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-07-2024T18:30:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-07-2024T18:30:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-07-2024T18:30:30 - [TEST_STEP][PASSED] - navigateToUrl("https://demowebshop.tricentis.com/fiction"): Navigate to 'https://demowebshop.tricentis.com/fiction' successfully
+
+04-07-2024T18:30:33 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/fiction' successfully
+
+04-07-2024T18:30:33 - [TEST_STEP][PASSED] - setText(findTestObject("ac/New Test Object (1)"), "a"): Text 'a' is set on object 'Object Repository/ac/New Test Object (1)'
+
+04-07-2024T18:30:38 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/ac/New Test Object (1)'
+
+04-07-2024T18:30:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-07-2024T18:30:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/aa/aa1" time="23.775" classname="Test Cases/aa/aa1" status="PASSED">
+         <system-out><![CDATA[04-07-2024T18:30:51 - [TEST_CASE][PASSED] - Test Cases/aa/aa1: Test Cases/aa/aa1
+
+04-07-2024T18:30:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-07-2024T18:30:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-07-2024T18:30:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-07-2024T18:30:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-07-2024T18:30:55 - [TEST_STEP][PASSED] - navigateToUrl("https://demowebshop.tricentis.com/fiction"): Navigate to 'https://demowebshop.tricentis.com/fiction' successfully
+
+04-07-2024T18:31:01 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/fiction' successfully
+
+04-07-2024T18:31:01 - [TEST_STEP][PASSED] - setText(findTestObject("ac/New Test Object (1)"), "a"): Text 'a' is set on object 'Object Repository/ac/New Test Object (1)'
+
+04-07-2024T18:31:03 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/ac/New Test Object (1)'
+
+04-07-2024T18:31:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-07-2024T18:31:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-07-2024T18:26:36 - [TEST_SUITE][PASSED] - a: Test Cases/aa/aa1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

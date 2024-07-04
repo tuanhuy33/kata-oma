@@ -6,11 +6,15 @@
    <elementGuidId>7aaa9136-149b-4c77-aa6c-0c69b0853ef8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//a[1]/span[6]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,6 +23,20 @@
       <name>asdaw</name>
       <type>Main</type>
       <value>cawsd</value>
-      <webElementGuid>06fb624b-01a6-4d11-b96e-5fd827f4a9cd</webElementGuid>
+      <webElementGuid>d4aa9ddd-71c5-473a-88a2-b47a02f10c5a</webElementGuid>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//a[1]/span[1]</value>
+      <webElementGuid>166b8d42-c132-47bd-9c93-3cdb143396f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//a[1]/span[2]</value>
+      <webElementGuid>2baeffa2-f43e-447c-817f-b59b08d1aa97</webElementGuid>
+   </webElementXpaths>
 </WebElementEntity>

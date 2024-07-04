@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Username_username</name>
+   <tag></tag>
+   <elementGuidId>314a835f-890a-4b12-b2e1-d96dbcd1ba90</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@name='username'])</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>txt-username</value>
+      <webElementGuid>9dfb2d7f-2e48-4dd2-bcf3-41c337e4d21e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
