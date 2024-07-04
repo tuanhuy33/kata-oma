@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite (1)" time="116.17" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite (1)" tests="1" failures="0" errors="0" time="116.17" skipped="0" timestamp="03-07-2024T23:50:43" hostname="tuanh - huybt2" id="Test Suites/thang/New Folder/New Test Suite (1)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\tuanh\\git\\kata-oma\\Reports\\20240703_234824\\thang\\New Folder\\New Test Suite (1)\\20240703_234824"/>
+         <property name="logFiles" value="C:\\Users\\tuanh\\git\\kata-oma\\Reports\\20240703_234824\\thang\\New Folder\\New Test Suite (1)\\20240703_234824\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="tuanh - huybt2"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="eec301661f940806acddd89d81ca545c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/abcs/New Test Case" time="111.882" classname="Test Cases/abcs/New Test Case" status="PASSED">
+         <system-out><![CDATA[03-07-2024T23:50:48 - [TEST_CASE][PASSED] - Test Cases/abcs/New Test Case: Test Cases/abcs/New Test Case
+
+03-07-2024T23:50:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-07-2024T23:51:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-07-2024T23:51:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-07-2024T23:51:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-07-2024T23:51:40 - [TEST_STEP][PASSED] - navigateToUrl("https://demowebshop.tricentis.com/fiction"): Navigate to 'https://demowebshop.tricentis.com/fiction' successfully
+
+03-07-2024T23:51:48 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/fiction' successfully
+
+03-07-2024T23:51:48 - [TEST_STEP][PASSED] - setText(findTestObject("ac/New Test Object (1)"), "a"): Text 'a' is set on object 'Object Repository/ac/New Test Object (1)'
+
+03-07-2024T23:51:58 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/ac/New Test Object (1)'
+
+03-07-2024T23:51:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-07-2024T23:52:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-07-2024T23:50:43 - [TEST_SUITE][PASSED] - New Test Suite (1): Test Cases/abcs/New Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

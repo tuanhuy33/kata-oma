@@ -26,6 +26,42 @@
          <testDataId>Data Files/New Folder/New Test Data</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>78cca73b-0377-4319-b3a1-a5d1102ece91</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>af86012f-e54c-4fa8-9361-91f169b726b0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e4216036-a404-47df-8e6a-56ccef610c61</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0d1376ab-7366-44af-ab98-97a1b6c3ae58</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>76e533f4-ed43-4c7c-a151-2ee7b0dad708</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>41c5e54f-3bbb-47d7-b4f9-2b89eae96839</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>f779f50c-fa30-44d4-b863-41c4f75368db</guid>
@@ -42,6 +78,42 @@
          <testDataId>Data Files/New Folder/asa</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>78cca73b-0377-4319-b3a1-a5d1102ece91</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>af86012f-e54c-4fa8-9361-91f169b726b0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e4216036-a404-47df-8e6a-56ccef610c61</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0d1376ab-7366-44af-ab98-97a1b6c3ae58</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>76e533f4-ed43-4c7c-a151-2ee7b0dad708</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>41c5e54f-3bbb-47d7-b4f9-2b89eae96839</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>1d825f1d-0cdc-4788-9f41-84a2f9320bbd</guid>
@@ -58,6 +130,42 @@
          <testDataId>Data Files/New Folder/New Test Data (1)</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>78cca73b-0377-4319-b3a1-a5d1102ece91</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>af86012f-e54c-4fa8-9361-91f169b726b0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e4216036-a404-47df-8e6a-56ccef610c61</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0d1376ab-7366-44af-ab98-97a1b6c3ae58</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>76e533f4-ed43-4c7c-a151-2ee7b0dad708</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>41c5e54f-3bbb-47d7-b4f9-2b89eae96839</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>61c799da-34d9-4f53-a8b4-057d8ffc9e0e</guid>
@@ -74,6 +182,42 @@
          <testDataId>Data Files/New Folder/New Test Data (2)</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>78cca73b-0377-4319-b3a1-a5d1102ece91</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>af86012f-e54c-4fa8-9361-91f169b726b0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e4216036-a404-47df-8e6a-56ccef610c61</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0d1376ab-7366-44af-ab98-97a1b6c3ae58</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>76e533f4-ed43-4c7c-a151-2ee7b0dad708</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>41c5e54f-3bbb-47d7-b4f9-2b89eae96839</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>189191c5-ca31-4663-9f08-aa8945d5bd74</guid>
@@ -90,5 +234,41 @@
          <testDataId>Data Files/New Folder/s</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>78cca73b-0377-4319-b3a1-a5d1102ece91</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>af86012f-e54c-4fa8-9361-91f169b726b0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e4216036-a404-47df-8e6a-56ccef610c61</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0d1376ab-7366-44af-ab98-97a1b6c3ae58</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>76e533f4-ed43-4c7c-a151-2ee7b0dad708</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>41c5e54f-3bbb-47d7-b4f9-2b89eae96839</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
